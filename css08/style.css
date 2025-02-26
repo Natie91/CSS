@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    background-color: white;
+    font-family: cursive;
+    min-width: 100vh;
+    font-size: 1.5em;
+}
+
+header {
+
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+
+header > h1 {
+
+    padding : 20px;
+    font-size: 2em;
+    font-variant: small-caps;
+
+}
+
+header p {
+
+    font-size: 18px;
+    padding: 15px;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+}
+
+section.poema {
+    font-size: 1em;
+    padding: 20px;
+
+}
+
+section.imagem {
+    padding: 30px;
+    position: relative;
+    background-position: right center;
+    padding: 10px;
+    font-size: 1em;
+    margin: 10px;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+
+section.imagem > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(39, 39, 39, 0.514);
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.404);
+    color: white;
+  }
+
+  section#img01{
+    background-image: url('imagens/background001.jpg');
+    background-position: right center;
+  }
+
+  section#img02{
+    background-image: url('imagens/background002.jpg');
+    background-position: right center;
+  }
+
+  footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 0.5em;
+  }
