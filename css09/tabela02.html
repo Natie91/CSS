@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tabelas</title>
+
+        <!--TABLE = TABELA TABLE ROW = LINHA DE TABELA TABLE HEADER = CABEÇA DE TABELA
+        TABLE DATA = DADO DE TABELA -->
+
+        <style>
+
+            body {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                background-color: rgb(223, 223, 223);
+
+            }
+
+            table {
+                border-collapse: collapse;
+                background-color: ghostwhite;
+                position: relative;
+            }
+
+            td,
+            th,
+            tr {
+                border: 1px solid black;
+                padding: 10px;
+                width: 200px;
+                height: 30px;
+            }
+
+            th {
+                background-color: rgb(54, 54, 54);
+                color: white;
+                padding: 10px;
+            }
+
+            tbody > tr:nth-child(2n) {
+                background-color: lightgray;
+            }
+
+            thead tr th {
+                position: sticky;
+                top: -1px;
+                background-color: rgb(54, 54, 54);
+
+            }
+
+            .numero {
+                text-align: right;
+            }
+
+            .porcentagem {
+                text-align: right;
+            }
+        </style>
+
+    </head>
+    <body>
+        <h1>
+            Lista de unidades federativas do Brasil por população</h1>
+        <table>
+            <thead>
+
+                <strong>
+                    <tr>
+                        <th>Estado</th>
+                        <th>População</th>
+                        <th>% Da População</th>
+                    </tr>
+                </strong>
+
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>São Paulo</td>
+                    <td class="numero">45 973 190</td>
+                    <td class="porcentagem">21,88%</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td class="numero">21 322 692
+                    </td>
+                    <td class="porcentagem">10,11%</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="numero">17 219 679</td>
+                    <td class="porcentagem">7,91%</td>
+                </tr>
+                <tr>
+                    <td>Bahia</td>
+                    <td class="numero">14 850 513</td>
+                    <td class="porcentagem">6,96%</td>
+                </tr>
+                <tr>
+                    <td>Paraná</td>
+                    <td class="numero">11 824 665</td>
+                    <td class="porcentagem">5,64%</td>
+                </tr>
+                <tr>
+                    <td>Rio Grande do Sul</td>
+                    <td class="numero">11 229 915</td>
+                    <td class="porcentagem">5,36%</td>
+                </tr>
+                <tr>
+                    <td>Pernambuco</td>
+                    <td class="numero">9 539 029</td>
+                    <td class="porcentagem">4,46%</td>
+                </tr>
+                <tr>
+                    <td>Ceará</td>
+                    <td class="numero">9 233 656</td>
+                    <td class="porcentagem">4,33%</td>
+                </tr>
+                <tr>
+                    <td>Pará</td>
+                    <td class="numero">8 664 306</td>
+                    <td class="porcentagem">4,1%</td>
+                </tr>
+                <tr>
+                    <td>Santa Catarina</td>
+                    <td class="numero">8 058 447</td>
+                    <td class="porcentagem">3,75%</td>
+                </tr>
+                <tr>
+                    <td>Goiás</td>
+                    <td class="numero">7 350 483</td>
+                    <td class="porcentagem">3,47%</td>
+                </tr>
+            </table>
+        </tbody>
+    </body>
+</html>
